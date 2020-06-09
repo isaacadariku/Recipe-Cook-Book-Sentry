@@ -7,3 +7,5 @@
 2. The app will be developed using “Stacked” architecture.
 
 3. Font size will scale according to the device's accessibility setting “font size”.
+
+4. Pick task from trello board.

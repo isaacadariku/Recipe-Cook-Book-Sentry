@@ -11,7 +11,7 @@ class Router {
   Route<dynamic> onGenerateRoute(RouteSettings settings) {
     switch(settings.name){
       case Routes.startupViewRoute:
-        return CupertinoPageRoute<dynamic>(
+        return MaterialPageRoute<dynamic>(
           builder: (context) => StartupView(),
           settings: settings,
         );

@@ -164,6 +164,12 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "flutter_screenutil",
+      "rootUri": "file:///Users/isaacadariku/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_screenutil-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/isaacadariku/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -476,7 +482,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-06-09T15:02:20.989925Z",
+  "generated": "2020-06-09T18:40:59.821080Z",
   "generator": "pub",
   "generatorVersion": "2.8.4"
 }

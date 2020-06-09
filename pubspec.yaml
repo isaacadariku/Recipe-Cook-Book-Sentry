@@ -24,6 +24,7 @@ dependencies:
   auto_route:
 
   cupertino_icons: ^0.1.3
+  flutter_screenutil: ^1.1.0
 
 dev_dependencies:
   flutter_test:

@@ -26,8 +26,10 @@ dependencies:
   # JSON
   json_annotation: ^3.0.1
 
-  cupertino_icons: ^0.1.3
+  # add flutter_screenutil
   flutter_screenutil: ^1.1.0
+
+  cupertino_icons: ^0.1.3
 
 dev_dependencies:
   flutter_test:

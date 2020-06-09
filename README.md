@@ -1,4 +1,4 @@
-# HNG-Team-Sentry-app-development
+# HNG Team Sentry Mobile App Development
 
 ## App development rules to remember:
 

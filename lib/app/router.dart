@@ -1,10 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:recipe_cook_book/ui/views/home/home_view.dart';
 import 'package:recipe_cook_book/ui/views/startup/startup_view.dart';
 
 
 abstract class Routes {
   static const startupViewRoute = '/';
+  static const homeViewRoute = '/home';
 }
 
 class Router {
@@ -13,6 +15,11 @@ class Router {
       case Routes.startupViewRoute:
         return MaterialPageRoute<dynamic>(
           builder: (context) => StartupView(),
+          settings: settings,
+        );
+      case Routes.homeViewRoute:
+        return CupertinoPageRoute<dynamic>(
+          builder: (context) => HomeView(),
           settings: settings,
         );
       default:

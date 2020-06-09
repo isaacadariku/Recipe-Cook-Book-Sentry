@@ -9,19 +9,8 @@ class HomeView extends StatelessWidget {
     return ViewModelBuilder<HomeViewModel>.reactive(
       builder: (context, model, child) => Scaffold(
         body: SafeArea(
-          child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 80.0),
-            child: SingleChildScrollView(
-              child: Column(
-                children: <Widget>[
-                  Padding(
-                    padding: EdgeInsets.symmetric(vertical: 80.0),
-                    child: Text('BUILD HERE'),
-                  ),
-                 
-                ],
-              ),
-            ),
+          child: Center(
+            child: Text(model.title),
           ),
         ),
       ),

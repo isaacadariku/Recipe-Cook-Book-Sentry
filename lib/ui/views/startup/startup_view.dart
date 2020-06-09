@@ -11,8 +11,7 @@ class StartupView extends StatelessWidget {
     1. Setup for screenutil, only needed once here
     2. screen resolution (in px) according to iPhone 11 pro max
     3. Import screen util to all views
-    4. use in this manner Container(width: 50.w, height:200.h)
-)
+    4. use in this manner E.g Container(width: 50.w, height:200.h)
     */
     ScreenUtil.init(context, width: 1242, height: 2688, allowFontScaling: true);
     

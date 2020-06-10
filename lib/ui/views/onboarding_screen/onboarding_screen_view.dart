@@ -45,8 +45,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               stops: [0.1, 0.4, 0.7, 0.9],
               colors: [
                 Color(0xFFFFFFFF),
-                 Color(0xFFFFFFFF),
-                 
+                Color(0xFFFFFFFF),
                 Color(0xFFFABE9B),
                 Color(0xFFFABE9B),
                 // Color(0xFFF79D69),
@@ -60,19 +59,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Container(
-                  alignment: Alignment.centerRight,
-                  child: FlatButton(
-                    onPressed: () => print('Skip'),
-                    child: Text(
-                      'Skip',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20.0,
-                      ),
-                    ),
-                  ),
-                ),
-                Container(
                   height: 600.0,
                   child: PageView(
                     physics: ClampingScrollPhysics(),
@@ -83,80 +69,20 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       });
                     },
                     children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.all(40.0),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Center(
-                              child: Image(
-                                image: AssetImage(
-                                  'assets/images/onboarding1.png',
-                                ),
-                                height: 300.0,
-                                width: 300.0,
-                              ),
-                            ),
-                            SizedBox(height: 30.0),
-                            Text(
-                              'Connect people\naround the world',
-                            ),
-                            SizedBox(height: 15.0),
-                            Text(
-                              'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                            ),
-                          ],
-                        ),
+                      PageScreens(
+                        image: 'assets/images/onboarding1.png',
+                        text1: 'Connect people\naround the world',
+                        text2: 'Lorem ipsum dolor sit ame',
                       ),
-                      Padding(
-                        padding: EdgeInsets.all(40.0),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Center(
-                              child: Image(
-                                image: AssetImage(
-                                  'assets/images/onboarding2.png',
-                                ),
-                                height: 300.0,
-                                width: 300.0,
-                              ),
-                            ),
-                            SizedBox(height: 30.0),
-                            Text(
-                              'Live your life smarter\nwith us!',
-                            ),
-                            SizedBox(height: 15.0),
-                            Text(
-                              'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                            ),
-                          ],
-                        ),
+                      PageScreens(
+                        image: 'assets/images/onboarding2.png',
+                        text1: 'Connect people\naround the world',
+                        text2: 'Lorem ipsum dolor sit ame',
                       ),
-                      Padding(
-                        padding: EdgeInsets.all(40.0),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Center(
-                              child: Image(
-                                image: AssetImage(
-                                  'assets/images/onboarding3.png',
-                                ),
-                                height: 300.0,
-                                width: 300.0,
-                              ),
-                            ),
-                            SizedBox(height: 30.0),
-                            Text(
-                              'Get a new experience\nof imagination',
-                            ),
-                            SizedBox(height: 15.0),
-                            Text(
-                              'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                            ),
-                          ],
-                        ),
+                      PageScreens(
+                        image: 'assets/images/onboarding3.png',
+                        text1: 'Connect people\naround the world',
+                        text2: 'Lorem ipsum dolor sit ame',
                       ),
                     ],
                   ),
@@ -165,38 +91,60 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: _buildPageIndicator(),
                 ),
+                SizedBox(height: 130.0),
                 _currentPage != _numPages - 1
-                    ? Expanded(
-                        child: Align(
-                          alignment: FractionalOffset.bottomRight,
-                          child: FlatButton(
-                            onPressed: () {
-                              _pageController.nextPage(
-                                duration: Duration(milliseconds: 500),
-                                curve: Curves.ease,
-                              );
-                            },
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              mainAxisSize: MainAxisSize.min,
-                              children: <Widget>[
-                                Text(
-                                  'Next',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 22.0,
-                                  ),
-                                ),
-                                SizedBox(width: 10.0),
-                                Icon(
-                                  Icons.arrow_forward,
+                    ? Row(
+                        //  crossAxisAlignment: CrossAxisAlignment.baseline,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        mainAxisSize: MainAxisSize.min,
+                        children: <Widget>[
+                          Container(
+                            child: FlatButton(
+                              onPressed: () {
+                                _pageController.jumpToPage(_numPages);
+                              },
+                              child: Text(
+                                'Skip',
+                                style: TextStyle(
                                   color: Colors.white,
-                                  size: 30.0,
+                                  fontSize: 20.0,
                                 ),
-                              ],
+                              ),
                             ),
                           ),
-                        ),
+                          Expanded(
+                            child: Align(
+                              alignment: FractionalOffset.bottomRight,
+                              child: FlatButton(
+                                onPressed: () {
+                                  _pageController.nextPage(
+                                    duration: Duration(milliseconds: 500),
+                                    curve: Curves.ease,
+                                  );
+                                },
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: <Widget>[
+                                    Text(
+                                      'Next',
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 22.0,
+                                      ),
+                                    ),
+                                    SizedBox(width: 10.0),
+                                    Icon(
+                                      Icons.arrow_forward,
+                                      color: Colors.white,
+                                      size: 30.0,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
                       )
                     : Text(''),
               ],
@@ -208,16 +156,16 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           ? GestureDetector(
               onTap: () => print('Get started'),
               child: Container(
-                height: 100.,
+                height: 100.0,
                 width: double.infinity,
-                color: Colors.white,
+                color: Color(0xFFFABE9B),
                 child: Center(
                   child: Padding(
                     padding: EdgeInsets.only(bottom: 30.0),
                     child: Text(
                       'Get started',
                       style: TextStyle(
-                        color: Color(0xFFF57D37),
+                        color: Colors.white,
                         fontSize: 20.0,
                         fontWeight: FontWeight.bold,
                       ),
@@ -227,6 +175,44 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               ),
             )
           : Text(''),
+    );
+  }
+}
+
+class PageScreens extends StatelessWidget {
+  final String image;
+  final String text1;
+  final String text2;
+
+  const PageScreens({Key key, this.image, this.text1, this.text2})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.all(40.0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Center(
+            child: Image(
+              image: AssetImage(
+                image,
+              ),
+              height: 300.0,
+              width: 300.0,
+            ),
+          ),
+          SizedBox(height: 30.0),
+          Text(
+            text1,
+          ),
+          SizedBox(height: 15.0),
+          Text(
+            text2,
+          ),
+        ],
+      ),
     );
   }
 }

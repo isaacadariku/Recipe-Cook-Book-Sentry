@@ -26,7 +26,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       height: 8.0,
       width: isActive ? 24.0 : 16.0,
       decoration: BoxDecoration(
-        color: isActive ? Colors.white : Color(0xFF7B51D3),
+        color: isActive ? Colors.white : Color(0xFFF57D37),
         borderRadius: BorderRadius.all(Radius.circular(12)),
       ),
     );
@@ -44,10 +44,13 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               end: Alignment.bottomCenter,
               stops: [0.1, 0.4, 0.7, 0.9],
               colors: [
+                Color(0xFFFFFFFF),
+                 Color(0xFFFFFFFF),
+                 
                 Color(0xFFFABE9B),
                 Color(0xFFFABE9B),
-                Color(0xFFF79D69),
-                Color(0xFFF57D37),
+                // Color(0xFFF79D69),
+                // Color(0xFFF57D37),
               ],
             ),
           ),
@@ -97,12 +100,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             SizedBox(height: 30.0),
                             Text(
                               'Connect people\naround the world',
-                            
                             ),
                             SizedBox(height: 15.0),
                             Text(
                               'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                            
                             ),
                           ],
                         ),
@@ -124,12 +125,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             SizedBox(height: 30.0),
                             Text(
                               'Live your life smarter\nwith us!',
-                           
                             ),
                             SizedBox(height: 15.0),
                             Text(
                               'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                            
                             ),
                           ],
                         ),
@@ -151,12 +150,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             SizedBox(height: 30.0),
                             Text(
                               'Get a new experience\nof imagination',
-                           
                             ),
                             SizedBox(height: 15.0),
                             Text(
                               'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                             
                             ),
                           ],
                         ),
@@ -208,19 +205,19 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         ),
       ),
       bottomSheet: _currentPage == _numPages - 1
-          ? Container(
-              height: 100.0,
-              width: double.infinity,
-              color: Colors.white,
-              child: GestureDetector(
-                onTap: () => print('Get started'),
+          ? GestureDetector(
+              onTap: () => print('Get started'),
+              child: Container(
+                height: 100.,
+                width: double.infinity,
+                color: Colors.white,
                 child: Center(
                   child: Padding(
                     padding: EdgeInsets.only(bottom: 30.0),
                     child: Text(
                       'Get started',
                       style: TextStyle(
-                        color: Color(0xFF5B16D0),
+                        color: Color(0xFFF57D37),
                         fontSize: 20.0,
                         fontWeight: FontWeight.bold,
                       ),

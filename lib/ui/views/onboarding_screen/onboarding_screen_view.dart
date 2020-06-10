@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:recipe_cook_book/constants/colors.dart';
 
 class OnboardingScreen extends StatefulWidget {
   @override

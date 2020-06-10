@@ -1,20 +1,26 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:recipe_cook_book/ui/views/home/home_view.dart';
+import 'package:recipe_cook_book/ui/views/onboarding_screen/onboarding_screen_view.dart';
 import 'package:recipe_cook_book/ui/views/startup/startup_view.dart';
-
 
 abstract class Routes {
   static const startupViewRoute = '/';
+  static const onboardingViewRoute = 'onboarding';
   static const homeViewRoute = '/home';
 }
 
 class Router {
   Route<dynamic> onGenerateRoute(RouteSettings settings) {
-    switch(settings.name){
+    switch (settings.name) {
       case Routes.startupViewRoute:
         return CupertinoPageRoute<dynamic>(
           builder: (context) => StartupView(),
+          settings: settings,
+        );
+      case Routes.onboardingViewRoute:
+        return CupertinoPageRoute<dynamic>(
+          builder: (context) => OnboardingScreen(),
           settings: settings,
         );
       case Routes.homeViewRoute:

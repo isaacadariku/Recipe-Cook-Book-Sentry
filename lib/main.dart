@@ -18,6 +18,7 @@ class App extends StatelessWidget {
       theme:  ThemeData(
         primaryColor: ThemeColors.background,
         bottomAppBarColor: ThemeColors.bottomAppBar,
+        scaffoldBackgroundColor: ThemeColors.background,
         textTheme: TextTheme(
           headline5: TextStyle(
             fontFamily: 'Lato',

@@ -8,7 +8,7 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="recipe_cook_book"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/recipe_launcher">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

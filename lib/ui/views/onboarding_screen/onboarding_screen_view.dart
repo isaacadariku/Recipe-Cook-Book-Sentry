@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:recipe_cook_book/app/locator.dart';
+import 'package:recipe_cook_book/app/router.dart';
+import 'package:stacked_services/stacked_services.dart';
 
 class OnboardingScreen extends StatefulWidget {
   @override
@@ -7,6 +10,7 @@ class OnboardingScreen extends StatefulWidget {
 }
 
 class _OnboardingScreenState extends State<OnboardingScreen> {
+  final NavigationService _navigationService = locator<NavigationService>();
   final int _numPages = 3;
   final PageController _pageController = PageController(initialPage: 0);
   int _currentPage = 0;
@@ -157,7 +161,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       ),
       bottomSheet: _currentPage == _numPages - 1
           ? GestureDetector(
-              onTap: () => print('Get started'),
+              onTap: () => _navigationService.replaceWith(Routes.homeViewRoute),
               child: Container(
                 height: 100.0,
                 width: double.infinity,

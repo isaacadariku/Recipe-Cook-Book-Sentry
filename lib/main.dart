@@ -15,10 +15,16 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: true,
-      theme: ThemeData(
+      theme:  ThemeData(
         primaryColor: ThemeColors.background,
         bottomAppBarColor: ThemeColors.bottomAppBar,
+        textTheme: TextTheme(
+          headline5: TextStyle(
+            fontFamily: 'Lato',
+          ) ,
+        ),
       ),
+
       title: 'Cookify',
       initialRoute: Routes.startupViewRoute,
       onGenerateRoute: Router().onGenerateRoute,

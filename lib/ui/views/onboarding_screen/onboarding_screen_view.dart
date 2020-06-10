@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-// import 'package:flutter_onboarding_ui/utilities/styles.dart'; 
+import 'package:recipe_cook_book/constants/colors.dart';
 
 class OnboardingScreen extends StatefulWidget {
   @override
@@ -98,12 +98,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             SizedBox(height: 30.0),
                             Text(
                               'Connect people\naround the world',
-                              style: kTitleStyle,
+                            
                             ),
                             SizedBox(height: 15.0),
                             Text(
                               'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                              style: kSubtitleStyle,
+                            
                             ),
                           ],
                         ),
@@ -125,12 +125,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             SizedBox(height: 30.0),
                             Text(
                               'Live your life smarter\nwith us!',
-                              style: kTitleStyle,
+                           
                             ),
                             SizedBox(height: 15.0),
                             Text(
                               'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                              style: kSubtitleStyle,
+                            
                             ),
                           ],
                         ),
@@ -143,7 +143,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             Center(
                               child: Image(
                                 image: AssetImage(
-                                  'assets/images/onboarding3 .png',
+                                  'assets/images/onboarding3.png',
                                 ),
                                 height: 300.0,
                                 width: 300.0,
@@ -152,12 +152,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             SizedBox(height: 30.0),
                             Text(
                               'Get a new experience\nof imagination',
-                              style: kTitleStyle,
+                           
                             ),
                             SizedBox(height: 15.0),
                             Text(
                               'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                              style: kSubtitleStyle,
+                             
                             ),
                           ],
                         ),

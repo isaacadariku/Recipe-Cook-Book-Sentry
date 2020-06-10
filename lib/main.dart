@@ -13,7 +13,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       title: 'Cookify',
       initialRoute: Routes.startupViewRoute,
       onGenerateRoute: Router().onGenerateRoute,

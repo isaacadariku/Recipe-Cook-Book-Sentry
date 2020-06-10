@@ -5,6 +5,7 @@ import 'package:stacked_services/stacked_services.dart';
 import 'app/locator.dart';
 import 'app/router.dart';
 import 'constants/colors.dart';
+import 'constants/themes/theme.dart'
 
 void main() {
   setupLocator();

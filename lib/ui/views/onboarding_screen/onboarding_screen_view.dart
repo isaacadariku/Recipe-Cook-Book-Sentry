@@ -71,18 +71,21 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     children: <Widget>[
                       PageScreens(
                         image: 'assets/images/onboarding1.png',
-                        text1: 'Connect people\naround the world',
-                        text2: 'Lorem ipsum dolor sit ame',
+                        text1: 'Search for your\nFavorite Recipes',
+                        text2:
+                            'Find over 1000 recipes to use to prepare your Favorite meal',
                       ),
                       PageScreens(
                         image: 'assets/images/onboarding2.png',
-                        text1: 'Connect people\naround the world',
-                        text2: 'Lorem ipsum dolor sit ame',
+                        text1: 'Use recipes to\nprepare meals',
+                        text2:
+                            'Find over 1000 recipes to use to prepare your meal',
                       ),
                       PageScreens(
                         image: 'assets/images/onboarding3.png',
-                        text1: 'Connect people\naround the world',
-                        text2: 'Lorem ipsum dolor sit ame',
+                        text1: 'Save your Favorite\nRecipes',
+                        text2:
+                            'Saving your favorite recipe for another cook is just a click',
                       ),
                     ],
                   ),
@@ -107,7 +110,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 'Skip',
                                 style: TextStyle(
                                   color: Colors.white,
-                                  fontSize: 20.0,
+                                  fontSize: 22.0,
                                 ),
                               ),
                             ),
@@ -158,15 +161,15 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               child: Container(
                 height: 100.0,
                 width: double.infinity,
-                color: Color(0xFFFABE9B),
+                color: Colors.white,
                 child: Center(
                   child: Padding(
                     padding: EdgeInsets.only(bottom: 30.0),
                     child: Text(
                       'Get started',
                       style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20.0,
+                        color: Color(0xFFF57D37),
+                        fontSize: 40.0,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -206,10 +209,16 @@ class PageScreens extends StatelessWidget {
           SizedBox(height: 30.0),
           Text(
             text1,
+            style: TextStyle(
+              fontSize: 50.0,
+            ),
           ),
           SizedBox(height: 15.0),
           Text(
             text2,
+            style: TextStyle(
+              fontSize: 22.0,
+            ),
           ),
         ],
       ),

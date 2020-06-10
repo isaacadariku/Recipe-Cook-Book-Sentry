@@ -40,3 +40,30 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - assets/images/
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/font/Lato/Lato-Black.ttf
+        - asset: assets/font/Lato/Lato-BlackItalic.ttf
+        - asset: assets/font/Lato/Lato-Bold.ttf
+        - asset: assets/font/Lato/Lato-BoldItalic.ttf
+        - asset: assets/font/Lato/Lato-Italic.ttf
+        - asset: assets/font/Lato/Lato-Light.ttf
+        - asset: assets/font/Lato/Lato-LightItalic.ttf
+        - asset: assets/font/Lato/Lato-Regular.ttf
+        - asset: assets/font/Lato/Lato-Thin.ttf
+        - asset: assets/font/Lato/Lato-ThinItalic.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto/Roboto-Black.ttf
+        - asset: assets/font/Roboto/Roboto-BlackItalic.ttf
+        - asset: assets/font/Roboto/Roboto-Bold.ttf
+        - asset: assets/font/Roboto/Roboto-BoldItalic.ttf
+        - asset: assets/font/Roboto/Roboto-Italic.ttf
+        - asset: assets/font/Roboto/Roboto-Light.ttf
+        - asset: assets/font/Roboto/Roboto-LightItalic.ttf
+        - asset: assets/font/Roboto/Roboto-Medium.ttf
+        - asset: assets/font/Roboto/Roboto-MediumItalic.ttf
+        - asset: assets/font/Roboto/Roboto-Regular.ttf
+        - asset: assets/font/Roboto/Roboto-Thin.ttf
+        - asset: assets/font/Roboto/Roboto-ThinItalic.ttf

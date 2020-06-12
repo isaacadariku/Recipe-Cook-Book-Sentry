@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7d55f237-d6f8-49b5-96c7-d72c1467ec5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/analyzed_instruction_dto.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/analyzed_instruction_dto.freezed.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/analyzed_instruction_dto.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/equipment_dto.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/equipment_dto.freezed.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/equipment_dto.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/ingredient_dto.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/ingredient_dto.freezed.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/ingredient_dto.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/recipe_dto.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/recipe_dto.freezed.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/recipe_dto.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/step_dto.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/step_dto.freezed.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/step_dto.g.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/recipe_cook_book_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/recipe_cook_book_android.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -52,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1591724410622</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1591728119783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591728119783</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -59,10 +93,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

@@ -176,6 +176,18 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "freezed",
+      "rootUri": "file:///C:/WorkSpace/flutter/.pub-cache/hosted/pub.dartlang.org/freezed-0.10.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "freezed_annotation",
+      "rootUri": "file:///C:/WorkSpace/flutter/.pub-cache/hosted/pub.dartlang.org/freezed_annotation-0.7.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
       "name": "get",
       "rootUri": "file:///C:/WorkSpace/flutter/.pub-cache/hosted/pub.dartlang.org/get-2.11.3",
       "packageUri": "lib/",
@@ -244,6 +256,12 @@
     {
       "name": "json_annotation",
       "rootUri": "file:///C:/WorkSpace/flutter/.pub-cache/hosted/pub.dartlang.org/json_annotation-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
+      "name": "json_serializable",
+      "rootUri": "file:///C:/WorkSpace/flutter/.pub-cache/hosted/pub.dartlang.org/json_serializable-3.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.6"
     },
@@ -464,7 +482,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-06-09T17:40:35.763618Z",
+  "generated": "2020-06-09T20:25:00.881623Z",
   "generator": "pub",
   "generatorVersion": "2.9.0-8.2.beta"
 }

@@ -11,6 +11,9 @@ class HomeView extends StatelessWidget {
         body: SafeArea(
           child: Center(
             child: Text(model.title),
+            //TODO: Textwidget
+            //TODO: Search Bar
+            //TODO: C
           ),
         ),
       ),

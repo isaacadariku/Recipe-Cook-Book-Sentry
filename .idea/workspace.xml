@@ -6,27 +6,193 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d55f237-d6f8-49b5-96c7-d72c1467ec5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/analyzed_instruction_dto.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/analyzed_instruction_dto.freezed.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/analyzed_instruction_dto.g.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/equipment_dto.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/equipment_dto.freezed.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/equipment_dto.g.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/ingredient_dto.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/ingredient_dto.freezed.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/ingredient_dto.g.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/recipe_dto.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/recipe_dto.freezed.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/recipe_dto.g.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/step_dto.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/step_dto.freezed.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/recipe/step_dto.g.dart" afterDir="false" />
+    <list default="true" id="83d65df5-a41e-4e32-9e7e-4bd68a0d2457" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/api/images/1009573.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/185071.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/238176.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/248178.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/248799.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/264116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/473243.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/473967.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/474396.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/480310.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/482044.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/482512.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/482628.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/482759.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/483358.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/483531.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/483676.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/488633.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/495111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/495223.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/495508.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/496200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/496225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/496373.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/496929.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/496931.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/500244.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/500803.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/500830.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/505288.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/509646.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/511867.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/512226.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/515839.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/524349.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/529546.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/535969.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/536055.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/538019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/539858.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/547775.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/547899.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/548436.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/548450.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/550388.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/551703.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/556911.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/559162.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/563797.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/573591.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/577771.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/578102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/578138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/578449.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/582897.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/584481.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/584495.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/584594.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/584792.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/584854.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/586489.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/588272.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/588323.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/588548.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/588576.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/591705.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/591746.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/592292.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/592479.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/595916.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/611943.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/612082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/613079.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/617461.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/619608.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/622596.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/669313.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/677365.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/677524.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/677670.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/689502.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/695642.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/724675.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/733459.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/756829.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/775925.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/777037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/779803.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/780510.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/801710.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/810865.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/812966.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/814122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/818941.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/842383.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/860943.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/872984.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/974620.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/990084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/images/995889.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/api/json_reponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/onboarding1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/onboarding2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/onboarding3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/splashlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants/colors.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants/themes/light_color.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants/themes/theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/models/recipe.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/models/recipe.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/services/api.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/views/onboarding_screen/onboarding_screen_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/views/onboarding_screen/onboarding_screen_viewmodel.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/router.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/home/home_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/home/home_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/startup/startup_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/startup/startup_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/startup/startup_viewmodel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/startup/startup_viewmodel.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
